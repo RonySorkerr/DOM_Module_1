@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DOM</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main id="main-container">
+        <h1 id="select">Welcome To DOM</h1>
+        <ul id="count-list">
+            <li class="lists">One</li>
+            <li class="lists">Two</li>
+            <li class="lists">Three</li>
+            <li class="lists">Four</li>
+            <li class="lists">Five</li>
+        </ul>
+    </main>
+    <section>
+        <h1 >Welcome To DOM second</h1>
+        <ul id="okList">
+            <li class="fine">fine</li>
+            <li class="fine">how</li>
+            <li class="fine">are </li>
+            <li class="list">your</li>
+            <li class="list">Family</li>
+        </ul>
+    </section>
+    <script src="js/append.js"></script>
+    <script>
+        const lists = document.querySelectorAll('lists');
+        console.log(lists.innerHTML);
+    </script>
+</body>
+</html>
